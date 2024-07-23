@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Dribbble</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <input type="text" placeholder="Search...">
+        </nav>
+    </header>
+    <main>
+        <div class="filters">
+            <button onclick="filterSelection('all')" class="active">All</button>
+            <button onclick="filterSelection('discover')">Discover</button>
+            <button onclick="filterSelection('animation')">Animation</button>
+            <button onclick="filterSelection('branding')">Branding</button>
+            <button onclick="filterSelection('illustration')">Illustration</button>
+            <button onclick="filterSelection('mobile')">Mobile</button>
+            <button onclick="filterSelection('print')">Print</button>
+            <button onclick="filterSelection('product-design')">Product Design</button>
+            <button onclick="filterSelection('typography')">Typography</button>
+            <button onclick="filterSelection('web-design')">Web Design</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item discover">
+                <img src="1.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Take Control of Your Debt</h3>
+                    <p>Piqo Studio</p>
+                </div>
+            </div>
+            <div class="gallery-item mobile">
+                <img src="2.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Fitness Tracker Mobile</h3>
+                    <p>Purrweb UI/UX Agency</p>
+                </div>
+            </div>
+            <div class="gallery-item product-design">
+                <img src="4.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Sponsorship Opportunities</h3>
+                    <p>KRD I Kai</p>
+                </div>
+            </div>
+            <div class="gallery-item web-design">
+                <img src="5.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Wix Studio</h3>
+                    <p>Wix Studio</p>
+                </div>
+            </div>
+            <div class="gallery-item branding">
+                <img src="6.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Brand Identity Design</h3>
+                    <p>Creative Agency</p>
+                </div>
+            </div>
+            <div class="gallery-item animation">
+                <img src="7.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Animated Explainer Video</h3>
+                    <p>Motion Studio</p>
+                </div>
+            </div>
+            <div class="gallery-item illustration">
+                <img src="8.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Illustration Art</h3>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="gallery-item print">
+                <img src="9.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Print Advertisement</h3>
+                    <p>Advertising Agency</p>
+                </div>
+            </div>
+            <div class="gallery-item typography">
+                <img src="10.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Typography Design</h3>
+                    <p>Design Studio</p>
+                </div>
+            </div>
+            <div class="gallery-item web-design">
+                <img src="11.jpg" alt="Gallery Item">
+                <div class="gallery-item-info">
+                    <h3>Modern Web Design</h3>
+                    <p>Web Agency</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
